@@ -1,0 +1,51 @@
+body {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+#courses {
+	width: 100%;
+}
+
+th {
+	text-align: left;
+	padding: 6px;
+	background-color: #cc0000;
+	color: #ffffff;
+	font-weight: 400;
+}
+
+#c_descrip {
+	width: 60%;
+}
+#c_name {
+	width: 10%;
+}
+#c_title {
+	width: 25%;
+}
+#c_area {
+	width: 5%;
+}
+
+td {
+	padding: 6px;
+	vertical-align: top;
+}
+
+.expand {
+	margin: 0;
+}
+.expand:hover {
+	cursor: pointer;
+}
+
+.term_info {
+	display: none;
+}
+
+.divide td {
+	height: 1px;
+	background-color: #cc0000;
+	padding: 0;
+}
